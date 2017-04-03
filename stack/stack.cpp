@@ -1,4 +1,8 @@
 #include <iostream>
+
+/**
+ 堆栈实现
+*/
 using namespace std;
 class Stack {
 private:
