@@ -42,8 +42,8 @@ void Array::Display() {
 void Array::Traverse_Backward() {
 	int i;
 	for (i = Size - 1; i >= 0; i--)
-		cout << A[i] << "\t";
-	cout << endl;
+		{cout << A[i] << "\t";}	
+cout << endl;
 }
 int Array::Search(int Element) {
 	int i;
